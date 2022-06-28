@@ -11,14 +11,14 @@ export const locations = [
       "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that's among the worl's major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park.",
   },
   {
-    id: 1,
+    id: 2,
     image: california,
     title: "California",
     content:
       "California is a state in the Western United States. California borders Oregon to the north, Nevada and Arizona to the east, the Mexican state of Baja California to the south; and has a coastline along the Pacific Ocean to the west.",
   },
   {
-    id: 1,
+    id: 3,
     image: newyork,
     title: "Iskenderun",
     content:
