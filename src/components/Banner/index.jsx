@@ -15,9 +15,9 @@ const Banner = () => {
           our constrain. Pick and choose from 1000+ properties across the globe.
         </p>
 
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center">
-          <div><a className="bg-green-500 text-white px-8 py-3 flex justify-center rounded-md " href="/">View Properties</a></div>
-          <div className="mt-3"><a className="bg-green-100 text-green-500 px-8 py-3 flex justify-center rounded-md" href="/">Explore Locations</a></div>
+        <div className="mt-5 sm:mt-8 sm:flex justify-center xl:justify-start">
+          <div className="my-3 sm:m-2"><a className="bg-green-500 text-white px-8 py-3 flex justify-center rounded-md " href="/">View Properties</a></div>
+          <div className="my-3 sm:m-2"><a className="bg-green-100 text-green-500 px-8 py-3 flex justify-center rounded-md" href="/">Explore Locations</a></div>
         </div>
 
       </div>
@@ -26,3 +26,4 @@ const Banner = () => {
 };
 
 export default Banner;
+ 
