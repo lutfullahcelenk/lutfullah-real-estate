@@ -2,7 +2,7 @@ import home1 from "../assets/home1.jpg";
 import home2 from "../assets/home2.jpg";
 import home3 from "../assets/home3.jpg";
 
-export const cards = [
+export const properties = [
   {
     id: 1,
     image: home1,
@@ -16,7 +16,7 @@ export const cards = [
   {
     id: 2,
     image: home2,
-    title: "1104 Lutfullah",
+    title: "104 Lutfullah",
     content:
       "Located in the suburbs of Iskenderun, orchid villa offers luxury with a modern tocuh. Equipped with green lighting and a rainwater harvesting system, this property is eco-friendly.",
     price: 430,
