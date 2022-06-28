@@ -16,8 +16,8 @@ const Banner = () => {
         </p>
 
         <div className="mt-5 sm:mt-8 sm:flex justify-center xl:justify-start">
-          <div className="my-3 sm:m-2"><a className="bg-green-500 text-white px-8 py-3 flex justify-center rounded-md " href="/">View Properties</a></div>
-          <div className="my-3 sm:m-2"><a className="bg-green-100 text-green-500 px-8 py-3 flex justify-center rounded-md" href="/">Explore Locations</a></div>
+          <div className="my-3 sm:m-2"><a className="bg-green-500 font-semibold text-white px-8 py-3 flex justify-center rounded-md " href="/">View Properties</a></div>
+          <div className="my-3 sm:m-2"><a className="bg-green-100 font-semibold text-green-500 px-8 py-3 flex justify-center rounded-md" href="/">Explore Locations</a></div>
         </div>
 
       </div>
