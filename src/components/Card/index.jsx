@@ -3,7 +3,11 @@ import React from "react";
 const Card = ({ data }) => {
   return (
     <div className="overflow-hidden rounded shadow-lg">
-      <img className="w-full" src={data?.image} alt="place" />
+      <img
+        className={`w-full ${!data?.price && "h-1/2"}`}
+        src={data?.image}
+        alt="place"
+      />
 
       <div className="px-6 py-4">
         <div className="mb-2 text-xl font-bold">{data?.title}</div>
@@ -29,11 +33,13 @@ const Card = ({ data }) => {
         </div>
       )}
 
-      {data?.price && <div className="px-6 pt-4 pb-10">
-        <button className="inline-block px-4 py-1 mr-3 font-bold text-white bg-green-500 rounded-full">
-          View Property
-        </button>
-      </div>}
+      {data?.price && (
+        <div className="px-6 pt-4 pb-10">
+          <button className="inline-block px-4 py-1 mr-3 font-bold text-white bg-green-500 rounded-full">
+            View Property
+          </button>
+        </div>
+      )}
     </div>
   );
 };

@@ -9,19 +9,19 @@ const Navbar = () => {
 
   return (
     <div className="bg-white shadow-lg">
-      <div className="mx-auto px-4">
+      <div className="px-4 mx-auto">
         <div className="flex items-center justify-between ">
           <div className="flex space-x-12">
             <div
               onClick={() => navigate("/")}
-              className="cursor-pointer flex items-center"
+              className="flex items-center cursor-pointer"
             >
               <FaHome size="50" className="text-green-500" />
-              <h1 className="ml-3 font-semibold text-gray-500 text-xl">
+              <h1 className="ml-3 text-xl font-semibold text-gray-500">
                 Lutfullah Properties
               </h1>
             </div>
-            <div className="flex space-x-9 md:flex hidden">
+            <div className="hidden space-x-9 md:flex">
               {routes.map((item, index) => (
                 <nav
                   key={index}
