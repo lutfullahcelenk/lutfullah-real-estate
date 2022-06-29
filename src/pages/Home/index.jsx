@@ -22,7 +22,7 @@ const Home = () => {
         ))}
       </div>
 
-      <SiteBanner />
+      <SiteBanner bannerLocation="upper" />
 
       <div className="flex justify-center p-10 mt-5">
         <h2 className="mb-2 text-3xl text-gray-500">Locations</h2>
@@ -33,6 +33,8 @@ const Home = () => {
           <Card key={location?.id} data={location} />
         ))}
       </div>
+
+      <SiteBanner bannerLocation="lower" />
     </>
   );
 };

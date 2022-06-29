@@ -3,10 +3,14 @@
 @tailwind utilities;
 
 @layer components {
-    .site-banner {
+    .upper-banner {
         background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("assets/luxury.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    }
+
+    .lower-banner {
+        background: linear-gradient(315deg, #d1fae5 0%, #10b981 74%)
     }
 }
