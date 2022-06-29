@@ -2,9 +2,9 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="mt-10 px-4 md:mt-16">
+    <div className="px-4 mt-10 md:mt-16">
       <div className="sm:text-center xl:text-left">
-        <h1 className="tracking-tight font-extrabold sm:text-4xl md:text-6xl text-5xl ">
+        <h1 className="text-5xl font-extrabold tracking-tight sm:text-4xl md:text-6xl ">
           <span className="block">Lutfullah Properties </span>
           <span className="block text-green-500">Non-premium Prices</span>
         </h1>
@@ -15,15 +15,27 @@ const Banner = () => {
           our constrain. Pick and choose from 1000+ properties across the globe.
         </p>
 
-        <div className="mt-5 sm:mt-8 sm:flex justify-center xl:justify-start">
-          <div className="my-3 sm:m-2"><a className="bg-green-500 font-semibold text-white px-8 py-3 flex justify-center rounded-md " href="/">View Properties</a></div>
-          <div className="my-3 sm:m-2"><a className="bg-green-100 font-semibold text-green-500 px-8 py-3 flex justify-center rounded-md" href="/">Explore Locations</a></div>
+        <div className="justify-center mt-5 sm:mt-8 sm:flex xl:justify-start">
+          <div className="my-3 sm:m-2">
+            <a
+              className="flex justify-center px-8 py-3 font-semibold text-white bg-green-500 rounded-md "
+              href="#properties"
+            >
+              View Properties
+            </a>
+          </div>
+          <div className="my-3 sm:m-2">
+            <a
+              className="flex justify-center px-8 py-3 font-semibold text-green-500 bg-green-100 rounded-md"
+              href="#locations"
+            >
+              Explore Locations
+            </a>
+          </div>
         </div>
-
       </div>
     </div>
   );
 };
 
 export default Banner;
- 

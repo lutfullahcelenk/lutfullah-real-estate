@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <Banner />
 
-      <div className="flex justify-center p-10 mt-5">
+      <div id="properties" className="flex justify-center p-10 mt-5">
         <h2 className="mb-2 text-3xl text-gray-500">Recent Properties</h2>
       </div>
 
@@ -24,7 +24,7 @@ const Home = () => {
 
       <SiteBanner bannerLocation="upper" />
 
-      <div className="flex justify-center p-10 mt-5">
+      <div id="locations" className="flex justify-center p-10 mt-5">
         <h2 className="mb-2 text-3xl text-gray-500">Locations</h2>
       </div>
 
