@@ -10,7 +10,7 @@ const ClientCard = ({ data: { title, name, content, image } }) => {
         <span className="text-lg font-bold text-green-500">"</span>
       </p>
 
-      <div className="flex items-center mt-6 bg-green-100 rounded-full">
+      <div className="flex items-center my-6 bg-green-100 rounded-full">
         <a href="/" className="relative block">
           <img src={avatar} alt="avatar" />
         </a>
