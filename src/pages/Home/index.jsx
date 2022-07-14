@@ -9,6 +9,7 @@ import Card from "../../components/Card";
 import SiteBanner from "../../components/SiteBanner";
 import ClientCard from "../../components/ClientCard";
 import Form from "../../components/Form";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -58,6 +59,11 @@ const Home = () => {
       <div className="flex items-center justify-center p-10 mt-5 bg-green-300">
         <Form />
       </div>
+
+      <div className="flex justify-center px-10 pt-12 sm:pt-32">
+        <Footer />
+      </div>
+      
     </>
   );
 };
