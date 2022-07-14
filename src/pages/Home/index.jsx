@@ -8,6 +8,7 @@ import Banner from "../../components/Banner";
 import Card from "../../components/Card";
 import SiteBanner from "../../components/SiteBanner";
 import ClientCard from "../../components/ClientCard";
+import Form from "../../components/Form";
 
 const Home = () => {
   return (
@@ -39,7 +40,9 @@ const Home = () => {
       <SiteBanner bannerLocation="lower" />
 
       <div id="properties" className="flex justify-center p-10 mt-5">
-        <h2 className="mb-2 text-3xl text-gray-500">What Clients Say About Us ?</h2>
+        <h2 className="mb-2 text-3xl text-gray-500">
+          What Clients Say About Us ?
+        </h2>
       </div>
 
       <div className="grid gap-5 p-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -47,7 +50,14 @@ const Home = () => {
           <ClientCard key={client?.id} data={client} />
         ))}
       </div>
-      
+
+      <div id="properties" className="flex justify-center p-10 mt-5">
+        <h2 className="mb-2 text-3xl text-gray-500">Contact Us</h2>
+      </div>
+
+      <div className="flex items-center justify-center p-10 mt-5 bg-green-300">
+        <Form />
+      </div>
     </>
   );
 };
